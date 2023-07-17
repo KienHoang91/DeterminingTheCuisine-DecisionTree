@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<node &#35;0<br/>cane_molasses &le; 0.5<br/>samples = 2133<br/>value = [774, 1264, 95]<br/>class = french>, fillcolor="#b8f6d2"] ;
+1 [label=<node &#35;1<br/>cilantro &le; 0.5<br/>samples = 1907<br/>value = [615, 1207, 85]<br/>class = french>, fillcolor="#a4f3c5"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<node &#35;2<br/>soy_sauce &le; 0.5<br/>samples = 1847<br/>value = [598, 1200, 49]<br/>class = french>, fillcolor="#a0f2c2"] ;
+1 -> 2 ;
+3 [label=<node &#35;3<br/>samples = 1786<br/>value = [555, 1195, 36]<br/>class = french>, fillcolor="#98f1bd"] ;
+2 -> 3 ;
+4 [label=<node &#35;4<br/>samples = 61<br/>value = [43, 5, 13]<br/>class = canadian>, fillcolor="#efb083"] ;
+2 -> 4 ;
+5 [label=<node &#35;5<br/>fish &le; 0.5<br/>samples = 60<br/>value = [17, 7, 36]<br/>class = vietnamese>, fillcolor="#c7a8f4"] ;
+1 -> 5 ;
+6 [label=<node &#35;6<br/>samples = 33<br/>value = [17, 7, 9]<br/>class = canadian>, fillcolor="#f6d5bd"] ;
+5 -> 6 ;
+7 [label=<node &#35;7<br/>samples = 27<br/>value = [0, 0, 27]<br/>class = vietnamese>, fillcolor="#8139e5"] ;
+5 -> 7 ;
+8 [label=<node &#35;8<br/>cream &le; 0.5<br/>samples = 226<br/>value = [159, 57, 10]<br/>class = canadian>, fillcolor="#efb387"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<node &#35;9<br/>fish &le; 0.5<br/>samples = 179<br/>value = [139, 31, 9]<br/>class = canadian>, fillcolor="#eca36f"] ;
+8 -> 9 ;
+10 [label=<node &#35;10<br/>samples = 167<br/>value = [136, 31, 0]<br/>class = canadian>, fillcolor="#eb9e66"] ;
+9 -> 10 ;
+11 [label=<node &#35;11<br/>samples = 12<br/>value = [3, 0, 9]<br/>class = vietnamese>, fillcolor="#ab7bee"] ;
+9 -> 11 ;
+12 [label=<node &#35;12<br/>wheat &le; 0.5<br/>samples = 47<br/>value = [20, 26, 1]<br/>class = french>, fillcolor="#d3f9e3"] ;
+8 -> 12 ;
+13 [label=<node &#35;13<br/>samples = 21<br/>value = [4, 16, 1]<br/>class = french>, fillcolor="#73eda6"] ;
+12 -> 13 ;
+14 [label=<node &#35;14<br/>samples = 26<br/>value = [16, 10, 0]<br/>class = canadian>, fillcolor="#f5d0b5"] ;
+12 -> 14 ;
+}
